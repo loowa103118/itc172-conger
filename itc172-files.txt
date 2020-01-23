@@ -1,0 +1,213 @@
+Microsoft Windows [Version 10.0.18362.592]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\loowa>documents
+'documents' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\loowa>cd documents
+
+C:\Users\loowa\Documents>python -m venv env01
+
+C:\Users\loowa\Documents>dir
+ Volume in drive C is Windows
+ Volume Serial Number is F2E9-C93F
+
+ Directory of C:\Users\loowa\Documents
+
+01/22/2020  01:48 PM    <DIR>          .
+01/22/2020  01:48 PM    <DIR>          ..
+01/22/2020  01:48 PM    <DIR>          env01
+               0 File(s)              0 bytes
+               3 Dir(s)  877,737,529,344 bytes free
+
+C:\Users\loowa\Documents>env01\scripts\activate
+
+(env01) C:\Users\loowa\Documents>pip install django
+Collecting django
+  Using cached https://files.pythonhosted.org/packages/55/d1/8ade70e65fa157e1903fe4078305ca53b6819ab212d9fbbe5755afc8ea2e/Django-3.0.2-py3-none-any.whl
+Collecting asgiref~=3.2 (from django)
+  Using cached https://files.pythonhosted.org/packages/a5/cb/5a235b605a9753ebcb2730c75e610fb51c8cab3f01230080a8229fa36adb/asgiref-3.2.3-py2.py3-none-any.whl
+Collecting pytz (from django)
+  Using cached https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl
+Collecting sqlparse>=0.2.2 (from django)
+  Using cached https://files.pythonhosted.org/packages/ef/53/900f7d2a54557c6a37886585a91336520e5539e3ae2423ff1102daf4f3a7/sqlparse-0.3.0-py2.py3-none-any.whl
+Installing collected packages: asgiref, pytz, sqlparse, django
+Successfully installed asgiref-3.2.3 django-3.0.2 pytz-2019.3 sqlparse-0.3.0
+You are using pip version 19.0.3, however version 20.0.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+(env01) C:\Users\loowa\Documents>django-admin startproject pythonclubProject
+
+(env01) C:\Users\loowa\Documents>python manage.py startapp pythonclubapp
+C:\Users\loowa\AppData\Local\Programs\Python\Python37\python.exe: can't open file 'manage.py': [Errno 2] No such file or directory
+
+(env01) C:\Users\loowa\Documents>dir
+ Volume in drive C is Windows
+ Volume Serial Number is F2E9-C93F
+
+ Directory of C:\Users\loowa\Documents
+
+01/22/2020  01:53 PM    <DIR>          .
+01/22/2020  01:53 PM    <DIR>          ..
+01/22/2020  01:48 PM    <DIR>          env01
+01/22/2020  01:53 PM    <DIR>          pythonclubProject
+               0 File(s)              0 bytes
+               4 Dir(s)  878,450,249,728 bytes free
+
+(env01) C:\Users\loowa\Documents>cd pythonclubProject
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>dir
+ Volume in drive C is Windows
+ Volume Serial Number is F2E9-C93F
+
+ Directory of C:\Users\loowa\Documents\pythonclubProject
+
+01/22/2020  01:53 PM    <DIR>          .
+01/22/2020  01:53 PM    <DIR>          ..
+01/22/2020  01:53 PM               658 manage.py
+01/22/2020  01:53 PM    <DIR>          pythonclubProject
+               1 File(s)            658 bytes
+               3 Dir(s)  878,450,155,520 bytes free
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>python manage.py startapp pythonclubapp
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>dir
+ Volume in drive C is Windows
+ Volume Serial Number is F2E9-C93F
+
+ Directory of C:\Users\loowa\Documents\pythonclubProject
+
+01/22/2020  02:57 PM    <DIR>          .
+01/22/2020  02:57 PM    <DIR>          ..
+01/22/2020  01:53 PM               658 manage.py
+01/22/2020  02:57 PM    <DIR>          pythonclubapp
+01/22/2020  02:57 PM    <DIR>          pythonclubProject
+               1 File(s)            658 bytes
+               4 Dir(s)  878,449,999,872 bytes free
+
+(env01) C:\Users\loowa\Documents\pythonclubProject> Directory of C:\Users\loowa\Documents\pythonclubProject
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  01:53 PM    <DIR>          .
+The system cannot find the file specified.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  01:53 PM    <DIR>          ..
+The system cannot find the file specified.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  01:53 PM               658 manage.py
+'01' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  01:53 PM    <DIR>          pythonclubProject
+The system cannot find the file specified.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>               1 File(s)            658 bytes
+'1' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>               3 Dir(s)  878,450,155,520 bytes free
+'3' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>python manage.py startapp pythonclubapp
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>dir
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+(env01) C:\Users\loowa\Documents\pythonclubProject> Volume in drive C is Windows
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject> Volume Serial Number is F2E9-C93F
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject> Directory of C:\Users\loowa\Documents\pythonclubProject
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  02:57 PM    <DIR>          .
+The system cannot find the file specified.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  02:57 PM    <DIR>          ..
+The system cannot find the file specified.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  01:53 PM               658 manage.py
+'01' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  02:57 PM    <DIR>          pythonclubapp
+The system cannot find the file specified.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  02:57 PM    <DIR>          pythonclubProject
+The system cannot find the file specified.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>               1 File(s)            658 bytes
+'1' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>               4 Dir(s)  878,449,999,872 bytes free
+'4' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  02:57 PM    <DIR>          pythonclubapp
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+(env01) C:\Users\loowa\Documents\pythonclubProject>The system cannot find the file specified.
+'The' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>01/22/2020  02:57 PM    <DIR>          pythonclubProject
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+(env01) C:\Users\loowa\Documents\pythonclubProject>The system cannot find the file specified.
+'The' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>               1 File(s)            658 bytes
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+(env01) C:\Users\loowa\Documents\pythonclubProject>'1' is not recognized as an internal or external command,
+''1'' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>               4 Dir(s)  878,449,999,872 bytes free
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+(env01) C:\Users\loowa\Documents\pythonclubProject>'4' is not recognized as an internal or external command,
+''4'' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+(env01) C:\Users\loowa\Documents\pythonclubProject>C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+'C:\Users\loowa\Documents\pythonclubProject' is not recognized as an internal or external command,
+operable program or batch file.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>(env01) C:\Users\loowa\Documents\pythonclubProject>
+C:\Users\loowa\Documents\pythonclubProject was unexpected at this time.
+
+(env01) C:\Users\loowa\Documents\pythonclubProject>
